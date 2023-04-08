@@ -17,7 +17,7 @@ export const flowConfig: Config = {
       links: [
         {
           name: "Discord",
-          url: "https://discord.com",
+          url: "https://discord.com/app",
         },
         {
           name: "Twitter",
