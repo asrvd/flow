@@ -4,8 +4,8 @@
   "description": "a minimal ocean themed startpage",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel serve src/flow.html --port 3000",
-    "build": "parcel build src/flow.html --public-url ./"
+    "dev": "parcel serve src/index.html --port 3000",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
