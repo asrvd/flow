@@ -5,18 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="/src/flow.ts" type="module"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Smooch&display=swap"
-      as="style"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Smooch&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="/src/flow.css" />
+    <link rel="stylesheet" href="/src/fonts.css" />
     <title>flow ~</title>
   </head>
   <body
@@ -65,7 +55,7 @@
         <img
           src="https://i.pinimg.com/564x/96/57/49/965749ad14c097b0a0894791eed96dd0.jpg"
           alt="waves"
-          class="object-fill max-h-full w-full z-[1000]"
+          class="object-fill max-h-full w-full z-[1000] select-none"
         />
         <div
           class="absolute bottom-[-10] left-[-10] w-full h-full bg-blue-200/10 backdrop-blur-[2px] z-[-100]"
@@ -92,7 +82,7 @@
           <div class="flex justify-end h-full w-0">
             <h2
               x-text="day"
-              class="text-blue-200/60 absolute -top-[5.2rem] right-0 font-cursive text-[6.5rem] m-0 leading-tight"
+              class="text-blue-200/60 select-none absolute -top-[5.2rem] right-0 font-cursive text-[6.5rem] m-0 leading-tight"
             ></h2>
           </div>
         </div>

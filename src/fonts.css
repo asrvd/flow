@@ -1,0 +1,8 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&display=swap");
+
+@font-face {
+  font-family: "Smooch";
+  src: url("./fonts/smooch.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
